@@ -1,0 +1,147 @@
+/* Definir Medida REM como media general al HTML */
+html{
+    font-size: 62.5%;
+}
+/* Estilo para todo el body */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: 'roboto' sans-serif;
+    background-color: #202124;
+}
+/* Definir el ancho y alto del header */
+header{
+    width: 100%;
+    height: 6rem;
+}
+/* Definir display:flex al nav */
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Estilo a ul que es el header */
+header nav .browser-section{
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilo a las etiquetas a del nav */
+nav .browser-section a {
+    margin-right: 1rem;
+    color: white;
+}
+
+/* Estilo al icono de apps de Google */
+.menu{
+    background-image: url(/images/icon-app.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+/* Estilo a la imagen de perfil de Google */
+.image-profile{
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+/* Estilo general a main */
+main{
+    margin-top: 15rem;
+    text-align: center;
+}
+/* Estilo a la clase main_logo */
+main .main_logo{
+    margin: 0 auto;
+    width: 50.3rem;
+    margin-bottom: 3.5rem;
+}
+/* Tamaño a la imagen del logo */
+#logo{
+    width: 30rem;
+}
+/* Barra input */
+#input-search{
+    background: #202124;
+    border: 0.1rem solid #5f6368;
+    /* background-color: transparent; */
+    padding: 1rem;
+    border-radius: 1.5rem;
+    height: 1.8rem;
+    width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+/* Efecto sobre la barra de búsqueda */
+#input-search:hover{
+    box-shadow: 0 0.1rem 0.2rem 0 white;
+    border-color: #c6c6c6;
+}
+/* Establecer display:inline-block a la sección de botones*/
+.main_button div{
+    display: inline-block;
+}
+
+/* Estilo al botón search y lucky */
+#search, #lucky{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    height: 3.6rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 16px;
+    margin-right: 1.5rem;
+} 
+/* Efecto al botón search */
+#search:hover{
+    border: 0.1rem solid #c6c6c6;
+    box-shadow: 0 0.1rem 0.1rem #000001;
+    color: white;
+}
+/* Efecto al botón lucky */
+#lucky:hover{
+    border: 0.1rem solid #c6c6c6;
+    box-shadow: 0 0.1rem 0.1rem #000001;
+    color: white;
+}
+/* Estilo general al footer */
+footer{
+    background-color: #171717;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+}
+/* Estilo a ul que simula los links del footer */
+footer ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+/* Ordenar elementos a la izquierda */
+.footer-left{
+    justify-self: left;
+}
+/* Ordenar elementos a la derecha */
+.footer-right{
+    justify-self: right;
+}
+/* Estilo sobre los a del footer */
+.link{
+    color: white;
+    margin: 1rem;
+}
+
+
